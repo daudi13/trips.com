@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fw-reg: 300;
+    --fw-bold: 950;
+
+    --fs-p: 0.75rem;
+    --fs-h1: 3rem;
+    --fs-h2: 1.75rem;
+    --fs-h3: 1.5rem;
+
+    --clr-light:#fff;
+    --clr-dark: #000000;
+
+}
+
+body, html {
+    display: block;
+    background-color: var(--clr-dark);
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    color: var(--clr-light);
+    scroll-behavior: smooth;
+}
+
+.btn {
+    position: absolute;
+    width: 15%;
+    height: 40px;
+    background: teal;
+    border: 1px solid teal;
+    opacity: 0.8;
+    outline: none;
+    color: var(--clr-light);
+    padding: 10px;
+    font-size: 1em;
+    bottom: 10%;
+    left: 42%;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.border1 {
+    font-weight: var(--fw-bold);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+
+.section-light {
+    background-color: var(--clr-light);
+    text-align: justify;
+    padding: 15px 30px;
+    color: var(--clr-dark);
+}
+
+.section--last {
+    border-radius: 0 0 20px 20px;
+}
+
+.section-dark {
+    background-color: var(--clr-dark);
+    text-align: justify;
+    padding: 15px 20px;
+    color: var(--clr-light) ;
+}
+
+.pimg1 {
+    background-image: url('./img/chris-unger-dazjc3MXsDc-unsplash.jpg');
+    display: block;
+    min-height: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.pimg2 {
+    background-image: url('./img/junho-rcj8JF8zOac-unsplash.jpg');
+    display: block;
+    min-height: 100%;
+}
+
+.pimg3 {
+    background-image: url('./img/trevor-cole-UQJP4eEqRV0-unsplash.jpg');
+    display: block;
+    min-height: 100%;
+}
+
+.pimg4 {
+    background-image: url('./img/zach-kadolph-nGZnoojRpOk-unsplash.jpg');
+    display: block;
+    min-height: 100%;
+}
+
+.pimg5 {
+    background-image: url('./img/junho-rcj8JF8zOac-unsplash.jpg');
+    display: block;
+    min-height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 35px 0;
+}
+
+.mail {
+    text-decoration: none;
+    color: var(--clr-light);
+    margin-bottom: 15px;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--clr-light);
+    padding: 40px 60px;
+    margin-top: 20px;
+    font-size: var(--fs-h3);
+}
+
+.copyright {
+    font-size: .75em;
+    padding-top: 30px;
+}
+
